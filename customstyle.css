@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  height: 100px;
+  background-color: #1b2023;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 42px,
+    rgba(0, 0, 0, 0.22) 0px 15px 22px;
+}
+.navbar a {
+  padding-left: 70px;
+  font-size: 35px;
+  color: #f78809;
+}
+.navbar a:hover {
+  color: #fff;
+}
+.navbar-collapse {
+  padding-left: 100px;
+}
+.navbar-nav a {
+  margin-left: 40px;
+  font-size: 16px;
+}
+.fa-cart-shopping,
+.fa-phone {
+  font-size: 20px;
+  color: #fff;
+  float: right;
+  margin-left: 19px;
+  margin-top: 20px;
+}
+.backgroundImage {
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
+    url(images/Background\ Img.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+.headingTitle {
+  padding-top: 6rem;
+  padding-left: 7rem;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.headingTitle span {
+  color: #f78809;
+}
+.paragraph {
+  padding-top: 1rem;
+  padding-left: 7rem;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.BtnOrder {
+  margin-left: 7rem;
+  background-color: #f78809;
+  color: #fff;
+  width: 160px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.BtnOrder:hover {
+  background-color: #fff;
+  color: #f78809;
+}
+.layout {
+  display: flex;
+}
+.iconImage {
+  width: 40px;
+  height: 30px;
+  color: #fff;
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+  margin-top: 3rem;
+  margin-left: 7rem;
+}
+.icontext {
+  margin-top: 2.5rem;
+  margin-left: 15px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.icontext span {
+  color: #f78809;
+}
+.backgroundImage1 {
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 251, 244);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 251, 244, 1) 3%,
+    rgba(255, 253, 249, 1) 35%,
+    rgba(255, 255, 255, 1) 97%
+  );
+}
+.btngroup {
+  padding-left: 18rem;
+}
+.btngroup1 {
+  padding-left: 5rem;
+}
+.btnitemlist {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  height: 40px;
+  padding: 0 15px;
+  background-color: #fff;
+  color: #f78809;
+  border: solid 2px;
+  border-color: #f78809;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnitemlist:hover {
+  background-color: #f78809;
+  color: #fff;
+}
+.textheading {
+  padding-top: 2rem;
+}
+.card {
+  width: 18rem;
+}
+.BtnOrderpizza {
+  margin-left: 2rem;
+  background-color: #f78809;
+  color: #fff;
+  width: 160px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.vieawallbtn {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 40px;
+  background-color: #f78809;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: solid 2px;
+  border-color: #f78809;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.vieawallbtn:hover {
+  background-color: #fff;
+  color: #f78809;
+}
+.cardstyle {
+  border-radius: 50px;
+}
+.backgroundabout {
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f2f2;
+  margin-top: 20rem;
+}
+.storeimg {
+  width: 500px;
+  height: 400px;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  border-radius: 25px;
+}
+.aboutdetails {
+  padding-top: 10rem;
+}
+.backgroundchef {
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f2f2;
+}
+.chefimage {
+  width: 400px;
+  height: 250px;
+  max-width: 100%;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.boxtext {
+  display: none;
+  width: 200px;
+  height: 60px;
+  background-color: #dddd;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.chefimage:hover + .boxtext {
+  display: block;
+  position: absolute;
+}
+.footerpage {
+  width: 100%;
+  height: 400px;
+  background-color: #1b2023;
+}
+.list {
+  list-style-type: none;
+  margin-left: -2rem;
+  cursor: pointer;
+}
+.list li {
+  padding-top: 5px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar a {
+    padding-left: 0px;
+    font-size: 30px;
+    color: #f78809;
+  }
+  .navbar a:hover {
+    color: #fff;
+  }
+  .navbar-collapse {
+    padding-left: 0px;
+  }
+  .navbar-nav a {
+    margin-left: 0px;
+    font-size: 14px;
+  }
+  .headingTitle {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    font-size: 22px;
+  }
+  .paragraph {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 16px;
+  }
+  .paragraph br {
+    display: none;
+  }
+  .BtnOrder {
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .iconImage {
+    margin-top: 5rem;
+    margin-left: 2rem;
+  }
+  .icontext {
+    margin-top: 4.5rem;
+  }
+  .btngroup {
+    padding-left: 0rem;
+  }
+  .btngroup1 {
+    padding-left: 0;
+  }
+  .btnitemlist {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    height: 40px;
+    padding: 0 15px;
+  }
+  .backgroundImage1 {
+    width: 100%;
+    height: auto;
+  }
+  .textheading {
+    padding-top: 90px;
+  }
+  .card {
+    display: block;
+    margin: 0 auto;
+  }
+  .backgroundabout {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+  .storeimg {
+    max-width: 360px;
+    margin: 2rem 1rem;
+  }
+  .aboutdetails {
+    text-align: center;
+    padding-top: 0rem;
+  }
+  .aboutdetails br {
+    display: none;
+  }
+  .backgroundchef {
+    width: 100%;
+    height: auto;
+  }
+  .chefimage {
+    height: 200px;
+    max-width: 180px;
+    margin: 10px;
+  }
+  .boxtext {
+    margin-left: 10px;
+  }
+  .chefimage:hover + .boxtext {
+    display: block;
+    position: absolute;
+  }
+  .footerpage {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .footerpage ul {
+    margin: 4px;
+  }
+}
