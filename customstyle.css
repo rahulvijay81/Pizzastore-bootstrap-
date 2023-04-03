@@ -233,7 +233,7 @@ html {
 @media only screen and (max-width: 600px) {
   .navbar a {
     padding-left: 0px;
-    font-size: 30px;
+    font-size: 25px;
     color: #f78809;
   }
   .navbar a:hover {
@@ -247,12 +247,12 @@ html {
     font-size: 14px;
   }
   .headingTitle {
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-left: 2rem;
     font-size: 22px;
   }
   .paragraph {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     padding-left: 2rem;
     font-size: 16px;
   }
@@ -260,15 +260,15 @@ html {
     display: none;
   }
   .BtnOrder {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-left: 2rem;
   }
   .iconImage {
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-left: 2rem;
   }
   .icontext {
-    margin-top: 4.5rem;
+    margin-top: 3rem;
   }
   .btngroup {
     padding-left: 0rem;
@@ -299,8 +299,10 @@ html {
     margin-top: 5rem;
   }
   .storeimg {
-    max-width: 360px;
-    margin: 2rem 1rem;
+    max-width: 350px;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 20px;
   }
   .aboutdetails {
     text-align: center;
